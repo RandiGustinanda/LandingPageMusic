@@ -1,0 +1,33 @@
+.ml{
+    margin-left:auto;
+}
+.body{
+    background:linear-gradient(135deg, #E369D3, #481B55);
+    
+}
+.navbar-brand{
+    font-family:Bahnschrift;
+    font-size:30px;
+    font-weight: bold;
+    opacity: 34%;
+    margin-right: 100px;
+}
+.nav-link{
+    margin-right: 35px;
+}
+
+.nav-link:hover::after{
+    content:'';
+    display: block;
+    border-bottom: 3px solid #481B55;
+    width:30px;
+    margin: auto;
+}
+.navbar-nav{
+    font-family:calibri;
+    
+}
+.px-3{
+    background-image:url('img/hero.png');
+    background-size:cover ;
+}
